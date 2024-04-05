@@ -1,6 +1,6 @@
-import { google } from "googleapis";
+import { google, sheets_v4 } from "googleapis";
 
-let sheetInstance = null;
+let sheetInstance: sheets_v4.Sheets= null;
 
 export async function getSheetInstance() {
   if (sheetInstance) {
