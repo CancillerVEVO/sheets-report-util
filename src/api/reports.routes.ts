@@ -1,9 +1,9 @@
-import express from "express";
+import express, { Request, Response } from "express";
 
 const router = express.Router();
 
 // Repote de ventas de una sesión
-router.post("/sold/:sessionId", (req, res) => {
+router.post("/sold/:sessionId", (req: Request, res: Response) => {
   res.send("POST /reports");
 });
 

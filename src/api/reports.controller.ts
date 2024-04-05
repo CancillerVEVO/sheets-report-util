@@ -6,6 +6,7 @@ const soldInSessionReportController = async (
   next: NextFunction
 ) => {
   try {
+    
   } catch (error) {
     next(error);
   }
